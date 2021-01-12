@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MCMStocks">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".HomePageActivity"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/Theme.MCMStocks.NoActionBar"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.MCMStocks.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
